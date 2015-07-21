@@ -1,9 +1,9 @@
-# GLCD SDK
+# GLCD SDK ![Build Travis](https://api.travis-ci.org/50thomatoes50/GLCD_SDK.py.svg "")
 A Python wrapper for Logitech's LCD SDK
 
 ## Screenshot
-![Screenshot1](https://raw.github.com/50thomatoes50/GLCD_SDK.py/master/GLCD_SDK/Screenshot/2.png "")
-![Screenshot2](https://raw.github.com/50thomatoes50/GLCD_SDK.py/master/GLCD_SDK/Screenshot/1.png "")
+![Screenshot1](https://raw.github.com/50thomatoes50/GLCD_SDK.py/master/Screenshot/2.png "")
+![Screenshot2](https://raw.github.com/50thomatoes50/GLCD_SDK.py/master/Screenshot/1.png "")
 
 ## Requirement
 - A Logitech periphral with an LCD (G19,G510,G13,G15 ...)
