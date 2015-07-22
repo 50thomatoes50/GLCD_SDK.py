@@ -1,6 +1,6 @@
 from ctypes import *
 #from ctypes.wintypes import HWND
-import os, itertools
+import itertools
 
 #Constants
 NAME = "GLCD SDK.py"
@@ -107,7 +107,9 @@ def flatten(listOfLists):
     return itertools.chain.from_iterable(listOfLists)
 
 if __name__ == "__main__":
-    import platform
+    import platform, sys
     if platform.system() != "Windows":
         print "Host is not Windows. This module can't work"
-        os.exit(0)
+        sys.exit(0)
+    else:
+        print "Host is Windows. This module can work"

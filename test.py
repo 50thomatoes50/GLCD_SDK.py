@@ -1,6 +1,6 @@
 import os, time,PIL, Image, ImageDraw, timeit, itertools, GLCD_SDK, platform
 
-GLCD_SDK.initDLL("C:\\Program Files\\Logitech Gaming Software\\LCDSDK\\LCDSDK_8.57.148\\Lib\\GameEnginesWrapper\\x86\\LogitechLcdEnginesWrapper.dll")
+GLCD_SDK.initDLL("C:\\Program Files\\Logitech Gaming Software\\LCDSDK_8.57.148\\Lib\\GameEnginesWrapper\\x86\\LogitechLcdEnginesWrapper.dll")
 GLCD_SDK.LogiLcdInit("Python",GLCD_SDK.TYPE_COLOR+GLCD_SDK.TYPE_MONO)
 if GLCD_SDK.LogiLcdIsConnected(GLCD_SDK.TYPE_COLOR):
     GLCD_SDK.LogiLcdColorSetTitle(GLCD_SDK.NAME+" "+GLCD_SDK.VERSION,255,255,255)
