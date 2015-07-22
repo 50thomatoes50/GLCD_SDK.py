@@ -107,4 +107,7 @@ def flatten(listOfLists):
     return itertools.chain.from_iterable(listOfLists)
 
 if __name__ == "__main__":
-    pass
+    import platform
+    if platform.system() != "Windows":
+        print "Host is not Windows. This module can't work"
+        os.exit(0)
